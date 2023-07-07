@@ -1,0 +1,831 @@
+/*Index.html-css*/
+
+body {
+    background-color:rgb(231, 240, 232);
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.display-image {
+    margin: 0;
+    padding: 0;
+    background: url(Hero\ image\ 0.jpg);
+    background-size: cover;
+    background-position: centre;
+    font-family: sans-serif;
+    height: 600px;
+}
+.admission{
+    width: 15%;
+    height: 60px;
+    margin-left: 75px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(130, 141, 148);
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(249, 247, 245);
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.admission:hover{
+    background-color: rgb(65, 194, 194);
+}
+header {
+    background-color:rgb(231, 248, 233);
+    padding: 15px;
+    box-shadow: 0 0 0 3px rgb(11, 11, 11);
+}
+header li {
+    display: inline;
+    padding-left: 55px;   
+}
+.Abc-logo {
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(14, 155, 108);
+    letter-spacing: 2px;
+}
+header li a {
+    padding: 10px;
+    text-decoration: none;
+    padding-right: 20px;
+    color: rgb(41, 41, 147);
+    font-size: 18px;
+}
+header li a:hover
+{   color: rgb(33, 230, 230);     
+
+}
+.intro-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+h1 {
+    color: rgb(10, 53, 17);
+    text-align: center;
+    font-family: sans-serif;
+    padding-left: 35px;
+    text-decoration: underline;
+   
+    
+}
+h4 {
+    color: rgb(22, 21, 25);
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-left: 35px;
+   
+}
+.alumni{
+    display: flex;
+    background-color: #cedbce;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 2%;
+    overflow: hidden;
+    margin: auto;
+
+
+
+}
+
+.Alumni-cards {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 5px;
+    padding: 20px;
+    margin-top: 100px;
+   
+}
+.Alumni-cards-image-1{
+    height: 150px;
+    margin-bottom: 15px;
+    background-image: url(Hero\ image\ 02.jpg)
+}
+.Alumni-cards-image-2 {
+    height: 150px;
+    margin-bottom: 15px;
+    background-image: url(Hero\ image\ 03.jpg)
+}
+.Alumni-cards-image-3 {
+    height: 150px;
+    margin-bottom: 15px;
+    background-image: url(Hero\ image\ 04.jpg)
+}
+.Alumni-cards-image-4 {
+    height: 150px;
+    margin-bottom: 15px;
+    background-image: url(Hero\ image\ 05.jpg)
+}
+.alumni a :hover {
+    background-color: #84b484;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+
+.section {
+    background-color: #bac1bd;
+    height: 300px;
+    
+}
+
+.section ul {
+    list-style-type: none;
+}
+
+.section li a {
+   text-decoration: none;
+    color: #011508;
+}
+.links {
+    padding: 20px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    
+    
+}
+.industries {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 30%;
+    margin-top: -280px;
+    line-height: 1.7;
+   
+}
+.social-menu{
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -160px;
+    background-color: rgb(251, 246, 246);
+    padding-right: 50px;
+    padding-left: 30px;
+}
+.social-menu li {
+   display: inline; 
+   padding-left: 20px;
+   padding-right: 20px; 
+   font-size: 60px;
+}
+.social-menu li .fa:hover {
+    color: rgb(29, 241, 252);
+}
+.social-menu li a {
+    box-shadow: 0px 7px 5px;
+}
+
+footer {
+    background-color: rgb(112, 117, 112);
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    padding-top: 5px;
+}
+footer li  {
+    display: inline;
+}
+
+footer  li a {
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(4, 9, 22);
+    
+}
+footer li  :hover {
+    color: rgb(225, 234, 225);
+}
+.nav-placeholder {
+    max-width: 200px;
+}
+#reservation {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#links-header {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+#industries-header {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.menu-toggle-btn {
+    height: px;
+    line-height: 90px !important;
+    font-size: 26px;
+    cursor: pointer;
+    display: none !important;
+}
+
+    
+/*about-us css*/
+
+h1.about {
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: #0a0404;
+    text-decoration: none;
+    
+   
+}
+.about-us {
+    padding: 5px;
+    background-color: rgb(242, 253, 246);
+    max-width: 100%;
+    max-height: 850px ;
+
+}
+h4.about {
+   color: rgb(1, 8, 3);
+   padding-bottom: 350px;
+   padding-top: 80px;
+   padding-left: 50px;
+   line-height: 1.5;
+   font-family: sans-serif;
+   letter-spacing: 3px;
+}
+.director-image {
+  float: right;
+  margin-top: -940px;
+  padding-right: 100px;
+  
+}
+
+.person-name {
+    color: rgb(28, 72, 114);
+    font-size: 30px;
+}
+.person-designation {
+    color: rgb(14, 98, 172);
+}
+.responsive {
+    max-width: 300px;
+}
+
+
+/*contact-us css*/
+
+.contact-us-section {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    height: 800px;
+}
+.contact-container {
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(214, 219, 216);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 2%;
+    height: 100%;
+}
+h1.contact-us {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: rgb(37, 33, 33);
+    text-decoration: none;
+}
+.contact-container p {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+    color: rgb(40, 35, 35);
+    letter-spacing: 3px;
+}
+.contact-menu i.fa{
+    font-size: 22px;
+    padding: 3%;
+    background-color: rgb(26, 29, 27);
+    margin: 2%;
+    border-radius: 80%;
+    cursor: pointer;
+    border: 2px solid rgb(190,190,190);
+    color: antiquewhite;
+}
+.contact-menu i.fa:hover
+{
+    cursor: pointer;
+    border: 2px solid azure;
+    color: azure;
+}
+.contact-menu{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.texting-menu{
+    margin-left: 50%;
+    margin-top: -22%;
+}
+
+.form-info{
+    font-size: 16px;
+    font-style: italic;
+    color: azure;
+    letter-spacing: 2px;
+}
+input.menu{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: cornsilk;
+    color: black;
+    border: none;
+    outline: none;
+}
+input.menu ::placeholder{
+    color: azure;
+}
+textarea{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: cornsilk;
+    border: none;
+    outline: none;
+    font-family: sans-serif ;
+    color: black;
+}
+textarea ::placeholder{
+    color: azure;
+}
+.submit{
+    width: 70%;
+    background-color: rgb(21, 21, 54);
+    padding: 4px;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 33px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-left: 3%;
+    border: 2px solid rgb(190,190,190);
+    color: rgb(190,190,190);
+}
+.submit:hover{
+    border: 3px solid azure;
+    color: rgb(190,190,190);
+    cursor: pointer;
+}
+.input-group span {
+    color: red;
+    position: relative;
+    display: block;
+    padding-left: 8px;
+    font-size: 14px;
+}
+#submit-error {
+    color: red;
+    display: block;
+    padding-left: 180px;
+}
+
+.input-group span i {
+    color: green;
+}
+
+  /*courses css*/         
+
+.headings{
+    padding:5px;
+    max-width: 100%;
+    max-height: 200px;
+    background-color:#e9f5e9 ;
+    
+}
+.headings p {
+    color: rgb(4, 18, 21);
+    font-family: inherit;
+    letter-spacing: 3px;
+    padding-left: 200px;
+    font-size: 20px;
+}
+h1.courses{
+
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: rgb(19, 16, 16);
+    text-decoration: none;
+   
+    
+}
+.courses-container{
+    display: flex;
+    background-color: #d5e8d5;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 2%;
+    overflow: hidden;
+}
+.courses-container a {
+    
+    color: #101010;
+    text-decoration: none;
+}
+.cards {
+    background-color: rgb(210, 230, 210);
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-right: 20px;
+}
+.progress--fill-1{
+    max-width:200px;
+    height: 30px;
+    background: rgb(77, 77, 183);
+    border-radius: 3px;
+    
+}
+.progress--fill-2{
+    max-width:220px;
+    height: 30px;
+    background: rgb(77, 77, 183);
+    border-radius: 3px;
+    
+}
+.progress--fill-3{
+    max-width:240px;
+    height: 30px;
+    background: rgb(77, 77, 183);
+    border-radius: 3px;
+    
+}
+.cards-image-1 {
+    height: 150px;
+    margin-bottom: 15px;
+    background-image: url(Hero\ image\ 06.png)
+}
+.Cards-image-2 {
+    height: 150px;
+    margin-bottom: 15px;
+    background-image: url(Hero\ image\ 08.jpg)
+}
+.cards-image-3 {
+    height: 150px;
+    margin-bottom: 15px;
+    background-image: url(Hero\ image\ 07.jpg)
+}
+.courses-container a :hover {
+    background-color: #9eb79e;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+/* .Net course  css */
+
+.net-course {
+    max-width: 100%;
+    height: 800px;
+    background-color: rgb(86, 78, 86);
+    padding: 5px;
+}
+
+h1.net-courses {
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 40px;
+    color: #eedfee;
+}
+.text {
+    color: white;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding: 80px;
+    max-width: 90%;
+}
+.headings-paragaraph{
+    background-color: #7c807c;
+    max-width: 90%;
+    margin: auto
+
+}
+.net-programming-related {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    margin-top: 5%;
+}
+.Getting-started{
+    padding-right: 15%;
+}
+.Course-overview{
+    padding-left: 15%;
+}
+
+
+
+/* Java course css */
+
+.java-course {
+    max-width: 100%;
+    height: 800px;
+    background-color: rgb(57, 70, 77);
+    padding: 5px;
+}  
+
+/* schedule css*/
+
+.Schedule {
+    padding:5px;
+    max-width: 100%;
+    max-height: 300px;
+    background-color:#e2ece3 ;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.Schedule-heading {
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(15, 13, 13);
+}
+.Schedule-container {
+    display: flex;
+    background-color: #d1dfd1;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 2%;
+    overflow: hidden;
+    margin: auto;
+    max-width: 100%;
+    max-height: 800px;
+}
+.schedule-peragraph {
+    color: black;
+}
+.schedule-cards{
+    background-color: white;
+    width: 270px;
+    height: 250px;
+    margin: 80px;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.about-schedule{
+    background-color: rgb(212, 209, 202);
+    margin-top: 250px;
+}
+.Schedule-container a{
+    text-decoration: none;
+    color: #101010;
+}
+.Schedule-container a :hover {
+    background-color: #b1cfb1;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.schedule-cards-image-1 {
+    height: 150px;
+    margin-bottom: 15px;
+    background-image: url(Hero\ image\ 11.jpg)
+}
+.schedule-Cards-image-2 {
+    height: 150px;
+    margin-bottom: 15px;
+    background-image: url(Hero\ image\ 12.jpg)
+}
+.schedule-cards-image-3 {
+    height: 150px;
+    margin-bottom: 15px;
+    background-image: url(Hero\ image\ 10.jpg)
+}
+
+/*net schedule css*/
+.net-schedule {
+    max-width: 100%;
+    background-color: #f4fff6;
+    padding: 5px;
+
+}
+.Net-paragraph {
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+.net-schedule-related {
+    display: flex;
+    justify-content: center;
+    color: rgb(36, 34, 32);
+    background-color:rgb(241, 243, 248) ;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.schedule-table {
+    background-color:rgb(241, 243, 248);
+    
+}
+table {
+    margin-left: 75px;
+    
+
+}
+td {
+    padding: 10px;
+    padding-left: 100px;
+    text-align: right;
+}
+.first-row {
+    background-color: #616361;
+}
+.third-row {
+    background-color: #616361;
+}
+.fifth-row {
+    background-color: #616361;
+}
+.seventh-row {
+    background-color: #616361;
+}
+
+
+
+/*java schedule css*/
+.java-schedule {
+    max-width: 100%;
+    background-color: rgb(243, 241, 255);
+    padding: 5px;
+}
+.java-paragraph {
+
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+.java-schedule-related {
+    display: flex;
+    justify-content: center;
+    color: rgb(25, 18, 8);
+    padding-top: 5%;
+    background-color:rgb #c6ead8;
+}
+.java-table {
+    margin-left: 75px;
+    
+
+}
+td {
+    padding: 10px;
+    padding-left: 100px;
+    text-align: right;
+    color: rgb(248, 247, 247);
+}
+.java-first-row {
+    background-color: #1f163d;
+}
+.java-third-row {
+    background-color: #1f163d;
+}
+.java-fifth-row {
+    background-color: #1f163d;
+}
+.java-seventh-row {
+    background-color: #1f163d;
+}
+
+
+
+/*privacy policy css*/
+
+.Privacy-policy-1{
+    max-width: 95%;
+   padding: 5px;
+    background-color: rgb(74, 63, 47);
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    max-height: 500px;
+}
+.Privacy-policy-1 h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    color: aliceblue;
+    
+}
+.Privacy-policy-1 h3 {
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.paragraphs {
+    padding-left: 100px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    padding-top:20px ;
+    padding-right: 100px;
+    max-height: 400px;
+}
+.paragraphs h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    color: rgb(74, 63, 47);
+}
+
+
+/*site map css*/
+
+.Site-map-container {
+    max-width: 100%;
+    padding: 5px;
+    background-color: rgb(208, 211, 204);
+    max-height: 100px;
+    margin: auto;
+}
+.Site-map-container h1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 4px;
+    color: rgb(77, 83, 83);
+    text-decoration: none;
+}
+
+.site-map-links-1 {
+    max-height: 400px;
+    display: flex;
+    padding-left: 7%;
+}
+.lists-of-sitemap {
+    max-width: 100%;
+    padding: 5px;
+    max-height: 800px;
+}
+.site-map-links-1 ul h2 {
+    color: rgb(35, 20, 97);
+    font-size: 25px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+.site-map-links-1 ul li {
+    line-height: 1.8;
+}
+.site-map-links-1 ul {
+    padding-left: 200px;
+    list-style-type: none;
+  
+}
+.site-map-links-1 ul li a {
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(7, 30, 49);
+}
+
+/*end of csss*/

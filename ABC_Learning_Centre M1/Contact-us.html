@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <title>ABC Learning Centre</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<!--starting of the body-->
+
+<body>
+<header>
+  
+    
+   <div class="navigation-menu">
+    <ul>
+        <a class="Abc-logo">ABC Learning Centre</a>
+        <i class="menu-toggle-btn fas fa-bars"></i></li>
+        <li><a href="Index.html"><i class="fas fa-home home"></i>Home</a></li>
+        <li><a href="about.html"><i class="fas fa-align-left about"></i>About us</a></li>
+        <li><a href="Contact-us.html"><i class="fas fa-address-book contact"></i>Contact us</a></li>
+        <li><a href="Courses.html"><i class="fas fa-graduation-cap home"></i>Courses</a></li>
+        <li><a href="Schedule.html"><i class="fas fa-calendar home"></i>Schedule</a></li>
+        <a><input class="nav-placeholder" type="text" placeholder="search.."></a>
+      
+    </ul>
+</div>
+</header>
+
+<!--contac informations-->
+
+<section class="contact-us-section">
+
+<div class="contact-container">
+
+    <h1 class="contact-us">Contact us</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+
+<!--first grid-->
+
+    <div class="contact-menu">
+        <ul>
+            <i class="fa fa-map-marker"></i><span class="adress-info">137 City plus Avenue #335</span><br/>
+            <i class="fa fa-phone"></i><span class="phone-info">(+880) 018******2</span><br/>
+            <i class="fa fa-envelope"></i><span class="mail-info">abclearning122@gmail.com</span><br/>
+        </ul>
+    </div>
+
+<!--second grid-->
+
+    <div class="texting-menu">
+        <form>
+            <div class="input-group">
+               <input type="text" class="menu" placeholder="Enter your name" id="contact-name" onkeyup="validateName()">
+               <span id="name-error"></span>
+            </div>
+            
+            <div class="input-group">
+               <input type="text" class="menu" placeholder="Enter your phone" id="contact-phone" onkeyup="validatePhone()">
+               <span id="phone-error"></span>
+            </div>
+
+
+            <div class="input-group">
+               <input type="text" class="menu" placeholder="Enter your Email" id="contact-email" onkeyup="validateEmail()">
+               <span id="email-error"></span>
+            </div>
+
+
+            <div class="input-group">
+                <textarea name="message" placeholder="Enter your message" rows="5" id="contact-message" onkeyup="validateMessage()"
+                ></textarea>
+               <span id="message-error"></span>
+            </div>
+         
+              <button onclick="validateForm()" class="submit">Submit</button> 
+            <span id="submit-error"></span>
+        </form>
+    </div>
+</div>
+
+
+</section>
+
+
+<!--This is the section of quick links,industries and social menu-->
+
+<div class="section">
+    <div class="links">
+     <ul>
+        <a id="links-header">Quick links</a>
+         <li><a href="#">WHy ABC</a></li>
+         <li><a href="#">Small & midSize</a></li>
+         <li><a href="#">Enterprise</a></li>
+         <li><a href="#">ABC Trust Centre</a></li>
+         <li><a href="#">ABC Insights</a></li>
+         <li><a href="#">ABC Community</a></li> 
+     </ul>
+    </div>
+ 
+    <div class="industries" >
+     <ul>
+         <a id="industries-header">Industries</a>
+         <li><a href="#">Aero space and</a></li>
+         <li><a href="#">Defence</a></li>
+         <li><a href="#">Agribusiness</a></li>
+         <li><a href="#">Banking</a></li>
+         <li><a href="#">Cargo Transportation</a></li>
+         <li><a href="#">and Logistics</a></li> 
+     </ul>
+    </div> 
+ 
+     <div class="social-menu">
+     <ul>
+       <a style="font-size: 25px;">Find us on :</a>
+        <li> <a href="https://www.instagram.com"; style="color: rgb(151, 18, 46);"><i class="fa fa-instagram"></i></a></li>
+        <li> <a href="https://www.whatsapp.com"; style="color: rgb(10, 132, 35);"><i class="fa fa-whatsapp"></i></a></li>
+        <li> <a href="https://www.facebook.com"; style="color: rgb(49, 49, 153);"><i class="fa fa-facebook"></i></a></li>
+     </ul>
+     </div>
+ 
+ </div>
+ 
+ 
+ 
+ 
+ <!--Starting of footer section-->
+ 
+ <footer>
+ <ul>
+        <a id="reservation" >@2022 ABC Learning all rights reserved</a>
+        <li><a href="privacy-policy.html" >privacy policy</a></li> 
+        <li><a href="site-map.html">Site map</a></li> 
+ </ul>
+ 
+ </footer>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="script.js"></script> 
+ </body>
+ <!--Ending of the body tag-->
+ </html>

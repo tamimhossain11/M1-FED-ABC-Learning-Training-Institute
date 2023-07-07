@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lead-registration.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>Abc admin</title>
+</head>
+<body class="admin-login-body">
+    <div class="well-come">
+        <h1 class="hello">Hello Admin</h1>
+    </div>
+    <div class="login-box">
+        <h1 class="login-menu">Login here</h1><hr/>
+        <form class="forms">
+            <p>User name</p>
+            <input type="text"  id="username" placeholder="User name" required>
+            <p>Password</p>
+            <input type="password"  id="password" placeholder="Password" required><br/>
+
+        <a href="#" onclick="validate()" class="login-btn" type="submit" > Log in</a><br/>
+
+          
+            <span id="message-error"></span>
+            <a href="#" class="forgot">Forgot password?</a>
+
+    </div>
+    <div class="allright">
+        <p>@ Abc learning all right reserved.presented by T&S It farm</p>
+    </div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>+    
+    
+<script>
+    function validate(){
+        var username=document.getElementById("username").value;
+        var password=document.getElementById("password").value;
+        var messageError = document.getElementById('message-error');
+        
+        if (username=="Tamim hossain"&& password=="169831")
+
+        {
+            location.href = "leads-information.html"
+            return false
+        }
+        else{
+        messageError.innerHTML = 'Invalid username or password';
+           
+        }
+      
+       }
+  
+
+</script>
+
+</body>
+</html>
